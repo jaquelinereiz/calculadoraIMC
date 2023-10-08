@@ -10,11 +10,11 @@ def classificar_imc(imc):
     elif 25 <= imc < 29.9:
         return "Sobrepeso"
     elif 30 <= imc < 34.9:
-        return "Obesidade Grau 1"
+        return "Obesidade Grau I"
     elif 35 <= imc < 39.9:
-        return "Obesidade Grau 2"
+        return "Obesidade Grau II"
     else:
-        return "Obesidade Grau 3"
+        return "Obesidade Grau III"
 
 imc = calcular_imc(peso, altura)
 
